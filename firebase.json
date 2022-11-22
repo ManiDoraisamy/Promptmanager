@@ -9,7 +9,7 @@
       "site": "promptmanager-live",
       "public": ".output/public",
       "cleanUrls": true,
-      "rewrites": [{ "source": "**", "function": "ssrapp" }]
+      "rewrites": [{ "source": "**", "function": "server" }]
     }
   ],
   "emulators": {

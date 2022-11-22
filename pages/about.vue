@@ -1,5 +1,5 @@
 <template>
-    <div>
-        About Us
+    <div class="text-blue-900">
+        About Us - V1
     </div>
 </template>

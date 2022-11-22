@@ -20,7 +20,7 @@ const config = {
 };
 const nuxt = new Nuxt(config);
 
-exports.ssrapp = functions.https.onRequest(async (req, res) => {
+exports.server = functions.https.onRequest(async (req, res) => {
   await nuxt.ready();
   console.log('nuxt readyyyyyyyy')
   nuxt.render(req, res);
